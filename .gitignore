@@ -1,0 +1,12 @@
+# Panasonic's copyrighted firmware binary — download from Panasonic, do not redistribute
+*.bin
+
+# Per-camera EEPROM dumps contain the owner's SERIAL NUMBER and calibration — never commit
+GH5U.TXT
+GH5F.TXT
+GH5A.TXT
+*.vlt
+
+# scratch
+__pycache__/
+*.pyc
